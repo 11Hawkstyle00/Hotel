@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-container {
+    margin: 0px 166px;
+    word-spacing: 15px;
+}
+
+.back{
+    background:url(/static/images/base.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    color:#fff;
+    text-decoration: none;
+}
+
+.main-nav {
+    color:#fff;
+    text-decoration: none;
+}

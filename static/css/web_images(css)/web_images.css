@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.image-header{
+    background:url(/static/images/backings.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-item{
+    color:#fff;
+    text-decoration: none;
+}
+
+.img-link{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}

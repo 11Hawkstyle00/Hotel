@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.option-header{
+    background:url(/static/images/room.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.option-nav {
+    color:white;
+    text-decoration: none;
+}

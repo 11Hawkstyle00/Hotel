@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/logic&tables(css)/record(css)/record.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/logic&tables(css)/record(css)/button.css') }}">
+    <title>Record</title>
+</head>
+<body>
+    <div class="record-header">
+        <a href="/" class="rec-item">Home</a>
+        <h1>All Records: </h1>
+        {% for rec in bookinges %}
+                <p>Name: {{rec.name}} </p>
+                <p>Type of room: {{rec.room}}</p>
+                <p>Options: {{rec.option}}</p>
+                <p>Date of arrival: {{rec.arrival}}</p>
+                <p>Date of departure: {{rec.departure}}</p>
+                <p>Date of publication: {{rec.date.date()}}</p>
+                <a href="/record/{{rec.id}}" class="glow-on-hover">Detail</a>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.pres-header{
+    background:url(/static/images/room.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pres-nav {
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/logic&tables(css)/booking.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back-booking">
+        <a href="#" class ="booking-nav">Booking</a>
+        <form method="post">
+            <input type="text" name="name" id="name" placeholder="enter your name">
+            <input type="text" name="room" id="room"  placeholder="enter type of room">
+            <input type="text" name="option" id="option"  placeholder="enter options">
+            <textarea name="arrival" id="arrival" placeholder="enter date of arrival"></textarea>
+            <textarea name="departure" id="departure" placeholder="enter date of departure"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

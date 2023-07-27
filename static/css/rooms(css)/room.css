@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.room-header{
+    background:url(/static/images/room.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.room-nav {
+    color:white;
+    text-decoration: none;
+}
+
+.tittle h1{
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 50px;
+    margin-button: 50px;
+    color:white;
+}
+
+.room-format{
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 25px;
+}
